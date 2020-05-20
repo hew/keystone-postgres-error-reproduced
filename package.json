@@ -1,0 +1,14 @@
+{
+  "name": "repro-repo",
+  "version": "1.0.0",
+  "description": "reproducing Keystone underscore issue",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@keystonejs/adapter-knex": "^10.0.1",
+    "@keystonejs/app-graphql": "^5.1.7",
+    "@keystonejs/app-static": "^5.1.2",
+    "@keystonejs/keystone": "^9.0.1",
+    "keystone": "^4.2.1"
+  }
+}

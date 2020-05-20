@@ -1,0 +1,42 @@
+Arguments: 
+  /usr/local/Cellar/node/13.8.0/bin/node /Users/hew/.yarn/bin/yarn.js add keystonejs
+
+PATH: 
+  /Users/hew/.opam/default/bin:/Users/hew/.pyenv/shims:/Users/hew/.cargo/bin/:/Users/hew/go/bin/:/Users/hew/.local/bin/:/Users/hew/.config/bin/:/Users/hew/.cargo/bin:/Users/hew/.yarn/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/Xamarin Workbooks.app/Contents/SharedSupport/path-bin
+
+Yarn version: 
+  1.22.1
+
+Node version: 
+  13.8.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/keystonejs: Not found
+      at Request.params.callback [as _callback] (/Users/hew/.yarn/lib/cli.js:66982:18)
+      at Request.self.callback (/Users/hew/.yarn/lib/cli.js:140743:22)
+      at Request.emit (events.js:321:20)
+      at Request.<anonymous> (/Users/hew/.yarn/lib/cli.js:141715:10)
+      at Request.emit (events.js:321:20)
+      at IncomingMessage.<anonymous> (/Users/hew/.yarn/lib/cli.js:141637:12)
+      at Object.onceWrapper (events.js:427:28)
+      at IncomingMessage.emit (events.js:333:22)
+      at endReadableNT (_stream_readable.js:1201:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+npm manifest: 
+  {
+    "name": "repro-repo",
+    "version": "1.0.0",
+    "description": "reproducing Keystone underscore issue",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
